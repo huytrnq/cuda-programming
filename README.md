@@ -24,3 +24,4 @@ This repository is my personal study notes on CUDA programming. I will be using 
 ## Chapter 2: CUDA Programming Model
 - [Introduction](./Chapter%202%20-%20CUDA%20Programming%20Model/Introduction.md)
 - [CUDA Programming Structure](./Chapter%202%20-%20CUDA%20Programming%20Model/CUDA%20Programing%20Structure.md)
+- [Managing Memory](./Chapter%202%20-%20CUDA%20Programming%20Model/Managing%20Memory.md)
