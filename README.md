@@ -22,3 +22,5 @@ This repository is my personal study notes on CUDA programming. I will be using 
 - [CUDA](./Chapter%201%20-%20Hetergeneous%20Parallel%20Computing%20with%20CUDA/CUDA.md)
 
 ## Chapter 2: CUDA Programming Model
+- [Introduction](./Chapter%202%20-%20CUDA%20Programming%20Model/Introduction.md)
+- [CUDA Programming Structure](./Chapter%202%20-%20CUDA%20Programming%20Model/CUDA%20Programing%20Structure.md)
