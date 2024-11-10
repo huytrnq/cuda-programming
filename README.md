@@ -25,3 +25,8 @@ This repository is my personal study notes on CUDA programming. I will be using 
 - [Introduction](./Chapter%202%20-%20CUDA%20Programming%20Model/Introduction.md)
 - [CUDA Programming Structure](./Chapter%202%20-%20CUDA%20Programming%20Model/CUDA%20Programing%20Structure.md)
 - [Managing Memory](./Chapter%202%20-%20CUDA%20Programming%20Model/Managing%20Memory.md)
+- [Organzing Threads](./Chapter%202%20-%20CUDA%20Programming%20Model/Organizing%20Threads.md)
+- [Launching a CUDA Kernel](./Chapter%202%20-%20CUDA%20Programming%20Model/Launching%20a%20CUDA%20Kernel.md)
+- [Writing Your Kernel](./Chapter%202%20-%20CUDA%20Programming%20Model/Writing%20Your%20Kernel.md)
+- [Verifying Your Kernel](./Chapter%202%20-%20CUDA%20Programming%20Model/Verifying%20Your%20Kernel.md)
+- [Handling Errors](./Chapter%202%20-%20CUDA%20Programming%20Model/Handling%20Error.md)
