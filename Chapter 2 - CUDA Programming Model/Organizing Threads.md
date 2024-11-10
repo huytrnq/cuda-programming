@@ -16,3 +16,15 @@
     - gridDim  (grid dimension, measured in blocks)
     - blockDim (block dimension, measured in threads)
 - Usually a grid is organized as a two-dimensional array of blocks, and a block is organized as a three-dimensional array of threads.
+
+- Access grid/block variables from the host and devive side. 
+    - It is important to distinguish between the host and device access of grid and block variables. For example, using a variable declared as block from the host, you define the coordinates and access them as follows: block.x, block.y, and block.z
+    - On the device side, you have pre-initialized, built-in block size variable available as: blockDim.x, blockDim.y, and blockDim.z
+
+## Steps to Organize Threads
+- For a given data size, the general steps to organize threads are as follows:
+    1. Decide the block size
+    2. Calculate the grid dimensions based on the application data size and block size
+- To determine the block size, consider the following:
+    - Perfromance characteristics of the kerel
+    - Limitations of the GPU resources
