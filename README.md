@@ -30,3 +30,4 @@ This repository is my personal study notes on CUDA programming. I will be using 
 - [Writing Your Kernel](./Chapter%202%20-%20CUDA%20Programming%20Model/Writing%20Your%20Kernel.md)
 - [Verifying Your Kernel](./Chapter%202%20-%20CUDA%20Programming%20Model/Verifying%20Your%20Kernel.md)
 - [Handling Errors](./Chapter%202%20-%20CUDA%20Programming%20Model/Handling%20Error.md)
+- [Timing with CPU Timer](./Chapter%202%20-%20CUDA%20Programming%20Model/Timing%20with%20CPU%20Timer.md)
