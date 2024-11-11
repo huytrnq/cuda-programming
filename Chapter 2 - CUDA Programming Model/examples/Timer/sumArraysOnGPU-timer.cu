@@ -2,6 +2,16 @@
 #include <stdio.h>
 #include <sys/time.h>
 
+#define CHECK(call) { \
+    const cudaError_t error = call; \
+    if (error != cudaSuccess) { \
+        printf("Error: %s:%d, ", __FILE__, __LINE__); \
+        printf("code:%d, reason: %s\n", error, cudaGetErrorString(error)); \
+        exit(1); \
+    } \
+}\
+
+
 /**
  * @brief Get the current time in seconds
  * 
@@ -13,21 +23,6 @@ double cpuSecond() {
     return ((double)tp.tv_sec + (double)tp.tv_usec*1.e-6);
 }
 
-/**
- * @brief Check the result of the calculation
- * 
- * @param hostRef The reference result on the host
- * @param gpuRef The result on the device
- * @param N The size of the arrays
- */
-#define CHECK(call) { \
-    const cudaError_t error = call; \
-    if (error != cudaSuccess) { \
-        printf("Error: %s:%d, ", __FILE__, __LINE__); \
-        printf("code:%d, reason: %s\n", error, cudaGetErrorString(error)); \
-        exit(1); \
-    } \
-}
 
 /**
  * @brief Check the result of the calculation
