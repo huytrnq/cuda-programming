@@ -32,3 +32,4 @@ This repository is my personal study notes on CUDA programming. I will be using 
 - [Handling Errors](./Chapter%202%20-%20CUDA%20Programming%20Model/Handling%20Error.md)
 - [Timing with CPU Timer](./Chapter%202%20-%20CUDA%20Programming%20Model/Timing%20with%20CPU%20Timer.md)
 - [Organizing Parallel Threads](./Chapter%202%20-%20CUDA%20Programming%20Model/Organizing%20Parallel%20Threads.md)
+- [Managing Devices](./Chapter%202%20-%20CUDA%20Programming%20Model/Managing%20Devices.md)
