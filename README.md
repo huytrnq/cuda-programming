@@ -36,3 +36,4 @@ This repository is my personal study notes on CUDA programming. I will be using 
 
 ## Chapter 3: CUDA Execution Model
 - [Introduction](./Chapter%203%20-%20CUDA%20Execution%20Model/Introduction.md)
+- [Understand the Nature of Warp Execution](./Chapter%203%20-%20CUDA%20Execution%20Model/Understand%20the%20Nature%20of%20Warp%20Execution.md)
