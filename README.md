@@ -13,6 +13,7 @@ This repository is my personal study notes on CUDA programming. I will be using 
 8. [Chapter 8: GPU-Accelerated CUDA Libraries and OpenACC](#chapter-8-gpu-accelerated-cuda-libraries-and-openacc)
 9. [Chapter 9 : Multi-GPU Programming](#chapter-9-multi-gpu-programming)
 10. [Chapter 10: Implementation Considerations](#chapter-10-implementation-considerations)
+11. [Important Notes](#important-notes)
 
 ## Chapter 1: Hetergeneous Parallel Computing with CUDA 
 - [Introduction](./Chapter%201%20-%20Hetergeneous%20Parallel%20Computing%20with%20CUDA/Introduction.md)
@@ -37,3 +38,30 @@ This repository is my personal study notes on CUDA programming. I will be using 
 ## Chapter 3: CUDA Execution Model
 - [Introduction](./Chapter%203%20-%20CUDA%20Execution%20Model/Introduction.md)
 - [Understand the Nature of Warp Execution](./Chapter%203%20-%20CUDA%20Execution%20Model/Understand%20the%20Nature%20of%20Warp%20Execution.md)
+
+
+
+## Chapter 4: Global Memory
+
+## Chapter 5: Shared Memory and Constant Memory
+
+## Chapter 6: Streams and Concurrency
+
+## Chapter 7: Tuning Instruction-Level Primitive
+
+## Chapter 8: GPU-Accelerated CUDA Libraries and OpenACC
+
+## Chapter 9: Multi-GPU Programming
+
+## Chapter 10: Implementation Considerations
+
+## Important Notes
+### Chapter 1: Hetergeneous Parallel Computing with CUDA
+### Chapter 2: CUDA Programming Model
+### Chapter 3: CUDA Execution Model
+- Guidelines for Grid and Block Size: Using these guidelines will help your application scale on current and future devices:
+    - Keep the number of threads per block a multiple of warp size (32). 
+    - Avoid small block sizes: Start with at least 128 or 256 threads per block. 
+    - Adjust block size up or down according to kernel resource requirements. 
+    - Keep the number of blocks much greater than the number of SMs to expose sufficient parallelism to your device.
+    - Conduct experiments to discover the best execution configuration and resource usage.
