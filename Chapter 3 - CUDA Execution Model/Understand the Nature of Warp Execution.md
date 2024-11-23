@@ -117,3 +117,14 @@
 - Occupancy is a measure of how well the GPU is being utilized. It is the ratio of active warps to the maximum number of warps that can be executed concurrently on an SM.
 
 ## Synchonization
+- Two levels of synchronization:
+    - System-level synchronization: Synchronization between the host and the device
+    - Block-level: Wait for all threads in a thread block to reach the same point in execution on the device.
+- The `__device__ void __syncthreads()` function is used to synchronize threads within a block. It is a barrier synchronization function that ensures that all threads in a block have reached the same point in execution before any thread continues.
+
+## Scalability
+- Scalability implies that providing additional hardware resources to a parallel application yields speedup relative to the amount of added resources.
+- Serial code is not scalable as running a squential single threaded application on thounsands of cores will not improve performance.
+- Parallel code is scalable but real scalability depends on algorithm design and hardware features.
+- Transparent scalability: The application scales without any changes to the code.
+

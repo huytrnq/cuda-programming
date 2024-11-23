@@ -65,3 +65,6 @@ This repository is my personal study notes on CUDA programming. I will be using 
     - Adjust block size up or down according to kernel resource requirements. 
     - Keep the number of blocks much greater than the number of SMs to expose sufficient parallelism to your device.
     - Conduct experiments to discover the best execution configuration and resource usage.
+- Using ncu (NVIDIA Command Line Profiler) for Profiling:
+    - Check the occupancy of the kernel using the ncu command line profiler.
+    - Check Memory Operations and Memory Access Patterns.
